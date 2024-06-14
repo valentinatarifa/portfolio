@@ -1,0 +1,589 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Estilos header navbar*/
+header{
+   
+    height: 90px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 35px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+nav{
+   
+    height: 48px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 30px;
+    background: #e8e5e480;
+    backdrop-filter: saturate(180%) blur(10px);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 279px;
+    border-radius: 50px;
+    
+    font-size: 15px;
+}
+
+
+.ul-inicio{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 273px;
+    
+    height: 48px;
+    font-size: 15px;
+    flex-direction: row;
+    
+    
+}
+
+
+
+.li-inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    font-size: 15px;
+    
+}
+li a{
+    
+    text-align: center;
+    font-family: inter;
+    z-index: 1000;
+    width: 80px;
+    height: 30px;
+    padding-top: 12px;
+    box-sizing: content-box;
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+/*Clase que se agrega al presionar un boton del menu*/
+.init{
+    background-color: #fff;
+    border-radius: 50px;
+    
+}
+
+/*Estilo main*/
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    margin-top: 150px;
+    text-align: center;
+    
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    font-family:inter;
+    font-size: 70px;
+    font-weight: 500;
+    height: auto;
+    margin-bottom: 15px;
+    letter-spacing: -2px;
+    color: #000000;
+    
+}
+h2{
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, roboto, open sans;
+    
+    font-weight: lighter;
+    font-size: 22px;
+    height: auto;
+    color: #666666;
+}
+
+
+
+.elemento{
+    width: 80%;
+    height: 30px;
+    margin:0;
+    position: relative;
+    }
+
+
+.animatedColor {
+        color: #000000;
+}
+.flecha {
+animation: arrow 1s ease-in-out infinite;
+font-size:40px;
+cursor: pointer;
+}
+        
+.flecha:hover{
+animation:arrow 1s ease-out infinite !important;
+        color:#818181;
+}
+
+@keyframes arrow {
+    0% {
+     transform: translate(0px, 10px);
+     }
+     50% {
+     transform: translate(0px, 20px);
+      }
+     100% {
+     transform: translate(0px, 10px);
+    }
+}
+
+.proyectos{
+   
+    width: 100%;
+    margin-top: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    font-family: Arial, Helvetica, roboto, open sans;;
+}
+
+.proyectos article{
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+h3{
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    font-size: 36px;
+    height: 120px;
+    color: #666666;
+    font-family: Arial, Helvetica, roboto, open sans;
+    border-bottom: 0.3px solid #888888b7;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+h3:hover{
+    color: #000000;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.black-letter{
+    color: black;
+}
+
+
+
+
+
+
+.sensuale{
+    width: 100%;
+    display: none;
+    
+    flex-direction: column;
+    align-items: center;
+}
+
+.sensuale img{
+    width: 95%;
+}
+.perfil{
+    padding-top: 100px;
+    width: 100%;
+    font-family: inter;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+   
+}
+
+h4{
+    color: #000000;
+    width:60%;
+    text-align: center;
+    font-family: Arial, Helvetica, roboto, open sans;;
+    font-weight: lighter;
+    font-size: 40px;
+    height: auto;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    
+    
+}
+
+.habilidades{
+    
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.experiencia{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-bottom: 30px;
+    
+}
+
+h5{
+    
+    width: 30%;
+    font-family: Arial, Helvetica, roboto, open sans;
+    font-weight: lighter;
+    
+    font-size: 17px;
+    height: auto;
+   
+    text-align: left;
+    
+    
+}
+
+.perfil p{
+    line-height: 20px;
+    font-size: 16px;
+    width: 60%;
+    text-align: left;
+    font-family: Arial, Helvetica, roboto, open sans;
+    color: #434343;
+    
+}
+
+.bolder{
+    color: #000000;
+    font-weight: lighter;
+}
+
+
+
+.contacto{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    
+    
+}
+
+h6{
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, roboto, open sans;
+    font-size: 50px;
+    font-weight: lighter;
+    height: auto;
+    margin-bottom: 16px;
+    margin-top: 250px;
+    color: #000000;
+}
+h6:hover{
+    color:#666666;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contacto ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contacto ul li{
+    color: #000000;
+   font-size: 16px;
+   font-family: inter;
+}
+
+.contacto ul li a:hover{
+    color: #666666;
+}
+
+footer{
+    font-family: Arial, Helvetica, roboto, open sans;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 2%;
+    box-sizing: border-box;
+}
+
+footer span{
+    
+    width: 98%;
+
+}
+
+/*MOBILE*/
+
+@media only screen and (max-width: 576px) {
+
+    .proyectos{
+        
+        width: 100%;
+        margin-top: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 240px;
+        padding-bottom: 300px;
+        
+        font-family: Arial, Helvetica, roboto, open sans;;
+    }
+    
+    .proyectos article{
+        width: 96%;
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        margin-top: 200px;
+        text-align: center;
+        
+    }
+    
+    
+    h3{
+        
+        text-align: center;
+        width: 100%;
+        font-size: 17px;
+        height: 90px;
+        color: #000000;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, roboto, open sans;
+        border-bottom: 0.3px solid #888888b7;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        letter-spacing: -1px;
+        box-sizing: border-box;
+    }
+    
+    h3:hover{
+        color: #000000;
+        cursor: pointer;
+        transition: 1s;
+    }
+    
+    
+    h4{
+        color: #000000;
+        width:75%;
+        text-align: center;
+        font-family: Arial, Helvetica, roboto, open sans;;
+        font-weight: lighter;
+        font-size: 32px;
+        height: auto;
+        margin-bottom: 150px;
+        margin-top: 80px;
+        
+        
+    }
+
+    h1{
+        width: 100%;
+        text-align: center;
+        font-family:inter;
+        font-size: 40px;
+        font-weight: 500;
+        height: auto;
+        margin-bottom: 15px;
+        letter-spacing: -2px;
+        color: #000000;
+        
+    }
+    h2{
+        width: 100%;
+        text-align: center;
+        font-family: Arial, Helvetica, roboto, open sans;
+        
+        font-weight: lighter;
+        font-size: 20px;
+        height: auto;
+        color: #666666;
+    }
+    .perfil{
+        
+        width: 100%;
+        font-family: Arial, Helvetica, roboto, open sans;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 50px;
+        
+    }
+
+   
+    
+    .habilidades{
+        
+        display: flex;
+        flex-direction: row;
+        width: 85%;
+        margin-bottom: 30px;
+        justify-content: space-around;
+    }
+    
+    .experiencia{
+        display: flex;
+        flex-direction: row;
+        width: 85%;
+       padding-bottom: 45px;
+    }
+    
+    h5{
+        
+        width: 40%;
+        font-family: Arial, Helvetica, roboto, open sans;
+        font-size: 17px;
+        height: auto;
+        text-align: left;
+        
+        
+        
+    }
+    
+    .perfil p{
+        line-height: 20px;
+        font-size: 16px;
+        width: 60%;
+        text-align: left;
+        font-family: Arial, Helvetica, roboto, open sans;
+        color: #434343;
+        
+    }
+    
+    .bolder{
+        color: #000000;
+        font-weight: lighter;
+    }
+    
+    .imagen-perfil{
+        float: right;
+        border-radius: 50%;
+        width: 120px;
+       height: 120px;
+       
+    }
+
+    .contacto{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        position: relative;
+        margin-top: 150px;
+        margin-bottom: 100px;
+        
+        justify-content: center;
+        
+    }
+    
+    h6{
+        width: 100%;
+        text-align: center;
+        font-family: Arial, Helvetica, roboto, open sans;
+        font-size:36px;
+        font-weight: lighter;
+        height: auto;
+        margin-bottom: 16px;
+        color: #000000;
+        
+    }
+    
+    .contacto ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        width: 200px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .contacto ul li{
+        color: #000000;
+       font-size: 16px;
+       font-family: inter;
+    }
+    
+    
+    
+    footer{
+        font-family: Arial, Helvetica, roboto, open sans;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        
+    }
+    
+    footer span{
+        text-align: center;
+        width: 98%;
+    
+    }
+}
+
